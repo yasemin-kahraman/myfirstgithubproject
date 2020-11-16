@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<!-- Comments -->
+
+<head>
+    <title>Register Page</title>
+</head>
+
+<body>
+    <h1>Register Page</h1>
+
+    <form action="/action_page.php">
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" name="firstName" placeholder="Enter Your First Name" required/><br />
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" name="lastName" placeholder="Enter Your Last Name" required/><br />
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter Your Email" required/><br />
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="Enter Your Password" required/><br />
+        <label for="confirm_password">Confirm Password</label>
+        <input id="confirm_password" type="password" name="confirm_password" placeholder="Confirm Your Password" required/><br />
+        <label for="gender">Gender</label>
+        <input id="female" type="radio"  name="gender" value="Female">
+        <label for="female">Female</label>
+        <input id="male" type="radio"  name="gender" value="Male">
+        <label for="male">Male</label><br/>
+        <label for="dateOfBirth">Date of Birth</label>
+        <input id="dateOfBirth" type="date" name="dateOfBirth" placeholder="mm/dd/yyyy"required><br/>
+        <label for="habits">Habits</label>
+        <input id="sports" type="checkbox" name="sports">
+        <label for="sports">You like sports</label>
+        <input id="eat" type="checkbox" name="eat">
+        <label for="eat">You like to eat</label>
+        <input id="sleep" type="checkbox" name="sleep">
+        <label for="sleep">You like to sleep</label><br/>
+        <input id="button" type="submit" name="register" value="Register" />
+    </form>
+</body>
+
+</html>
